@@ -23,7 +23,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="friends\HtmlPage1.html" />
+    <Content Include="friends\test.js" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="HtmlPage1.js" />
     <Content Include="index.html" />
     <Content Include="js\vendor\backbone.js" />
     <Content Include="js\vendor\jquery-2.1.js" />
@@ -32,6 +35,8 @@
     <Content Include="js\vendor\require.text.js" />
     <Content Include="js\vendor\underscore.js" />
     <Content Include="js\vendor\backbone.localStorage.js" />
+    <Content Include="todos.css" />
+    <Content Include="todos.js" />
     <Content Include="todo\destroy.png" />
     <Content Include="todo\index.html" />
     <Content Include="todo\todos.css" />
