@@ -23,8 +23,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="index.html" />
-    <Content Include="js\vender\backbone.js" />
+    <Content Include="js\jsdemo1.js" />
+    <Content Include="js\vendor\backbone.js" />
+    <Content Include="js\vendor\jquery-2.1.js" />
+    <Content Include="js\vendor\json2.js" />
+    <Content Include="js\vendor\require.js" />
+    <Content Include="js\vendor\require.text.js" />
+    <Content Include="js\vendor\underscore.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
