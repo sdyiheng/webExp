@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <ProjectGuid>{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}</ProjectGuid>
+    <ProjectGuid>{2E06C98B-5F1B-4A6F-8D6F-FEB1587DE59A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <OutputPath>bin</OutputPath>
@@ -22,21 +22,14 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demo.jpg" />
     <Content Include="app.css" />
-    <Content Include="betterlist\app.js" />
-    <Content Include="betterlist\HtmlPage1.html" />
-    <Content Include="clickCounter\HtmlPage1.html" />
-    <Content Include="collections\app.js" />
-    <Content Include="collections\HtmlPage1.html" />
-    <Content Include="demo1\demo1.js" />
-    <Content Include="demo1\HtmlPage1.html" />
-    <Content Include="grid\HtmlPage1.html" />
-    <Content Include="grid\JavaScript.js" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="index.html" />
-    <Content Include="clickCounter\app.js" />
-    <Content Include="js\vendor\knockout-3.4.0.js" />
-    <Content Include="simplelist\app.js" />
-    <Content Include="simplelist\HtmlPage1.html" />
+    <Content Include="js\vendor\jquery-1.4.4.min.js" />
+    <Content Include="js\vendor\jquery-2.1.4.js" />
+    <Content Include="js\vendor\jquery.jqprint-0.3.js" />
+    <Content Include="print demo.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -50,12 +43,11 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>knockout_Demo</RootNamespace>
+    <RootNamespace>print_Demo</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
@@ -65,9 +57,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>18593</DevelopmentServerPort>
+          <DevelopmentServerPort>22205</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:18593/</IISUrl>
+          <IISUrl>http://localhost:22205/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

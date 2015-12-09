@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emberDemo", "emberDemo\embe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "knockout Demo", "knockout Demo\knockout Demo.csproj", "{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "print Demo", "print Demo\print Demo.csproj", "{2E06C98B-5F1B-4A6F-8D6F-FEB1587DE59A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E06C98B-5F1B-4A6F-8D6F-FEB1587DE59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E06C98B-5F1B-4A6F-8D6F-FEB1587DE59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E06C98B-5F1B-4A6F-8D6F-FEB1587DE59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E06C98B-5F1B-4A6F-8D6F-FEB1587DE59A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
