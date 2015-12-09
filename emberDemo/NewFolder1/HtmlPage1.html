@@ -1,22 +1,105 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
+
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta http-equiv="description" content="" />
+
+    <meta name="description" content="" />
+
+    <meta name="keywords" content="" />
+
+    <meta name="author" content="" />
+
     <title></title>
-	<meta charset="utf-8" />
+
+    <link rel="stylesheet" href="" type="text/css" />
+
+    <link rel="stylesheet" href="" type="text/css" />
+
 </head>
+
 <body>
 
-    <script type="text/x-handlebars" data-template-name="application">
+
+    <script type="text/x-handlebars" data-template-name="application1">
+
+
+
         <h1>Employee System</h1>
+
         {{outlet}}
+
+
+
     </script>
 
+
+
+    <script type="text/x-handlebars" data-template-name="home">
+
+
+
+        <h1>Employee Information</h1>
+
+        <ul>
+
+            {{#each item in content}}
+
+            <li>{{item.name}}</li>
+
+            {{/each}}
+
+        </ul>
+
+        <h3>Employee</h3>
+
+        <ul>
+
+            {{#each employee  in content}} {{#linkTo "employee" employee}}
+
+            <p>{{employee.name}}</p>
+
+            {{/linkTo}}
+
+            {{/each}}
+
+        </ul>
+
+    </script>
+
+
+
+
+
+    <script type="text/x-handlebars" data-template-name="employee">
+
+        <div>
+
+            <h3> Name: {{name}}</h3>
+
+            <p> Department: {{department}}</p>
+
+            <p> Title:{{title}}</p>
+
+            {{#linkTo home class='btn btn-primary'}}Back{{/linkTo}}
+
+        </div>
+
+    </script>
+    <!-- Add Javascript libs Reference -->
     <script src="../js/vendor/jquery-2.1.js"></script>
     <script src="../js/vendor/handlebars.runtime-v4.0.5.js"></script>
     <script src="../js/vendor/ember-template-compiler.js"></script>
-    <script src="../js/vendor/ember.js"></script>
-   <script src="../js/vendor/ember-data.js"></script>
+    <!--<script src="../js/vendor/ember.js"></script>-->
+    <script src="../js/vendor/ember.min.js"></script>
+    <script src="../js/vendor/ember-data.js"></script>
     <script src="myjs.js"></script>
 </body>
+
+
 </html>

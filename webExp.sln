@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24606.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backbone Demo", "backbone Demo\backbone Demo.csproj", "{B6267284-11CB-48BB-BC5F-AB339B572EBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emberDemo", "emberDemo\emberDemo.csproj", "{A4F49F58-7F4E-4A4C-8EE7-2D75520B37F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "knockout Demo", "knockout Demo\knockout Demo.csproj", "{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B6267284-11CB-48BB-BC5F-AB339B572EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6267284-11CB-48BB-BC5F-AB339B572EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6267284-11CB-48BB-BC5F-AB339B572EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F49F58-7F4E-4A4C-8EE7-2D75520B37F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F49F58-7F4E-4A4C-8EE7-2D75520B37F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F49F58-7F4E-4A4C-8EE7-2D75520B37F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F49F58-7F4E-4A4C-8EE7-2D75520B37F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

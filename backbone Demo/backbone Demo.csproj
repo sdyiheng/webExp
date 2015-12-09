@@ -23,10 +23,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="collection\collectionExp.html" />
+    <Content Include="collection\demo.js" />
     <Content Include="friends\HtmlPage1.html" />
     <Content Include="friends\test.js" />
-    <Content Include="HtmlPage1.html" />
-    <Content Include="HtmlPage1.js" />
+    <Content Include="Model Exp\HtmlPage1.html" />
+    <Content Include="Model Exp\HtmlPage1.js" />
     <Content Include="index.html" />
     <Content Include="js\vendor\backbone.js" />
     <Content Include="js\vendor\jquery-2.1.js" />

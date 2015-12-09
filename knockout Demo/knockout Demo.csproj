@@ -3,7 +3,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <ProjectGuid>{A4F49F58-7F4E-4A4C-8EE7-2D75520B37F1}</ProjectGuid>
+    <ProjectGuid>{55BCA1AF-A0FE-4410-BB6A-88B62A15FA52}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <OutputPath>bin</OutputPath>
@@ -24,22 +24,7 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
-    <Content Include="js\vendor\ember-data.js" />
-    <Content Include="js\vendor\ember-template-compiler.js" />
-    <Content Include="js\vendor\ember.js" />
-    <Content Include="js\vendor\ember.min.js" />
-    <Content Include="js\vendor\handlebars-v4.0.5.js" />
-    <Content Include="js\vendor\handlebars.runtime-v4.0.5.js" />
-    <Content Include="js\vendor\jquery-2.1.js" />
-    <Content Include="NewFolder1\HtmlPage1.html" />
-    <Content Include="NewFolder1\myjs.js" />
-    <Content Include="starter-kit-1.1.2\css\normalize.css" />
-    <Content Include="starter-kit-1.1.2\css\style.css" />
-    <Content Include="starter-kit-1.1.2\index.html" />
-    <Content Include="starter-kit-1.1.2\js\app.js" />
-    <Content Include="starter-kit-1.1.2\js\libs\ember-1.1.2.js" />
-    <Content Include="starter-kit-1.1.2\js\libs\handlebars-1.0.0.js" />
-    <Content Include="starter-kit-1.1.2\js\libs\jquery-1.9.1.js" />
+    <Content Include="js\vendor\knockout-3.4.0.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -53,12 +38,14 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="demo1\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>emberDemo</RootNamespace>
+    <RootNamespace>knockout_Demo</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
@@ -68,9 +55,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>25685</DevelopmentServerPort>
+          <DevelopmentServerPort>18593</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:25685/</IISUrl>
+          <IISUrl>http://localhost:18593/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
