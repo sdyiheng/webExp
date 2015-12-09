@@ -24,6 +24,14 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
+    <Content Include="js\vendor\ember-data.js" />
+    <Content Include="js\vendor\ember-template-compiler.js" />
+    <Content Include="js\vendor\ember.js" />
+    <Content Include="js\vendor\handlebars-v4.0.5.js" />
+    <Content Include="js\vendor\handlebars.runtime-v4.0.5.js" />
+    <Content Include="js\vendor\jquery-2.1.js" />
+    <Content Include="NewFolder1\HtmlPage1.html" />
+    <Content Include="NewFolder1\myjs.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +45,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
