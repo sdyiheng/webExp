@@ -28,6 +28,8 @@
     <Content Include="clickCounter\HtmlPage1.html" />
     <Content Include="collections\app.js" />
     <Content Include="collections\HtmlPage1.html" />
+    <Content Include="ControlTypes\HtmlPage1.html" />
+    <Content Include="ControlTypes\JavaScript.js" />
     <Content Include="demo1\demo1.js" />
     <Content Include="demo1\HtmlPage1.html" />
     <Content Include="grid\HtmlPage1.html" />
