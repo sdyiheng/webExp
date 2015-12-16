@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <script src="Scripts/vue.js"></script>
+
+</head>
+<body>
+    <h1>TypeScript HTML App</h1>
+
+    <div id="content"></div>
+
+    <div id="app">
+        <p>{{* message }}</p>
+
+        <p v-if="showHello">hello</p>
+        <p v-show="showHello">hello</p>
+
+        <input v-model="message" >
+
+        <ul>
+            <li v-for="item in items">
+                {{item.text}}
+            </li>
+        </ul>
+
+        <button v-on:click="clickHandler">asdfasdf</button>
+        <button @click="clickHandler">asdfasdf</button>
+    </div>
+
+
+    <div id="app2">
+        <p>{{ message+'_abc' }}</p>
+
+        <p v-if="showHello">hello</p>
+        <p v-show="showHello">hello</p>
+
+        <input v-model="message">
+
+        <ul>
+            <li v-for="item in items">
+                {{item.text}}
+            </li>
+        </ul>
+
+        <button v-on:click="clickHandler">asdfasdf</button>
+        <button @click="clickHandler">asdfasdf</button>
+    </div>
+    <script src="Scripts/vuedemo1.js"></script>
+    
+</body>
+</html>

@@ -22,6 +22,10 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\jasmine\jasmine.css" />
+    <Content Include="Content\jasmine\jasmine_favicon.png" />
+    <Content Include="Content\mocha.css" />
+    <Content Include="Content\qunit-1.14.0.css" />
     <Content Include="demo.jpg" />
     <Content Include="app.css" />
     <Content Include="HtmlPage1.html" />
@@ -30,18 +34,41 @@
     <Content Include="js\vendor\jquery-2.1.4.js" />
     <Content Include="js\vendor\jquery.jqprint-0.3.js" />
     <Content Include="print demo.html" />
+    <Content Include="Scripts\chai.js" />
+    <Content Include="Scripts\jasmine\boot.js" />
+    <Content Include="Scripts\jasmine\console.js" />
+    <Content Include="Scripts\jasmine\jasmine-html.js" />
+    <Content Include="Scripts\jasmine\jasmine.js" />
+    <Content Include="Scripts\qunit-1.14.0.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
+    <Content Include="Scripts\specs\application\calculator.js" />
+    <Content Include="Scripts\specs\bdd\chai-jquery.js" />
+    <Content Include="Scripts\specs\bdd\chai.js" />
+    <Content Include="Scripts\specs\bdd\fixtures.js" />
+    <Content Include="Scripts\specs\bdd\mocha.js" />
+    <Content Include="Scripts\specs\bdd\sinon-chai.js" />
+    <Content Include="Scripts\specs\bdd\sinon.js" />
+    <Content Include="Scripts\specs\fixtures\readme.txt" />
+    <Content Include="Scripts\text.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="Scripts\typings\vue\vue.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Views\Mocha\Index.cshtml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\MochaController.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
