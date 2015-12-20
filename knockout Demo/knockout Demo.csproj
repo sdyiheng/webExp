@@ -52,6 +52,11 @@
     <Content Include="Scripts\jasmine\jasmine.js" />
     <Content Include="Scripts\qunit-1.14.0.js" />
     <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\react\JSXTransformer-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.min.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.min.js" />
     <Content Include="Scripts\require.js" />
     <Content Include="Scripts\specs\application\calculator.js" />
     <Content Include="Scripts\specs\bdd\chai-jquery.js" />

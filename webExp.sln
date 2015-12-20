@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueDemo", "VueDemo\VueDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webPackDemo", "webPackDemo\webPackDemo.csproj", "{264A4F16-F86D-4471-9CA3-1BDB0A604C1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React Demo", "React Demo\React Demo.csproj", "{4F09BB2B-3E76-49F1-AC8B-5FDF2AE2D943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cito demo", "cito demo\cito demo.csproj", "{CEDED9CF-E4C3-479B-BB4B-DEDBEA695E1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{264A4F16-F86D-4471-9CA3-1BDB0A604C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{264A4F16-F86D-4471-9CA3-1BDB0A604C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{264A4F16-F86D-4471-9CA3-1BDB0A604C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F09BB2B-3E76-49F1-AC8B-5FDF2AE2D943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F09BB2B-3E76-49F1-AC8B-5FDF2AE2D943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F09BB2B-3E76-49F1-AC8B-5FDF2AE2D943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F09BB2B-3E76-49F1-AC8B-5FDF2AE2D943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDED9CF-E4C3-479B-BB4B-DEDBEA695E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDED9CF-E4C3-479B-BB4B-DEDBEA695E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDED9CF-E4C3-479B-BB4B-DEDBEA695E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDED9CF-E4C3-479B-BB4B-DEDBEA695E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

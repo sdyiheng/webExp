@@ -31,6 +31,11 @@
     <Content Include="index.html" />
     <Content Include="Scripts\chai.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\react\JSXTransformer-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.min.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.min.js" />
     <Content Include="Scripts\specs\application\calculator.js" />
     <Content Include="Scripts\specs\bdd\chai-jquery.js" />
     <Content Include="Scripts\specs\bdd\chai.js" />
